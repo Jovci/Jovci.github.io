@@ -51,10 +51,6 @@ function checkPriceUpdates() {
             
                 fetch(apiUrl)
                     .then((data) => {
-                        // Artificially change the salePrice for testing
-                        let oldPrice = save.salePrice;
-                        save.salePrice = (save.salePrice ? save.salePrice + 1.00 : data.salePrice + 1.00).toFixed(2);
-
                         // Compare the new price with the original price and set the color
                         if (save.salePrice > oldPrice) {
                             save.priceColor = 'red';
