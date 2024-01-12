@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSTOCK</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Include a separate CSS file for styling -->
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">NSTOCK</h1>
+        <div class="table-container">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                        <th>Link</th>
+                        <th>Action</th> <!-- Renamed from "Delete" to "Action" -->
+                    </tr>
+                </thead>
+                <tbody id="dataRows">
+                    <!-- Table rows for saved data will be generated here -->
+                </tbody>
+            </table>
+        </div>
+        <div class="button-container">
+            <button id="getURLButton" class="btn btn-primary">Get Active Page URL</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,5 +1,8 @@
-# software will notify the user of a selected item’s price change, supply, or release. Feel free to change and include
+# software will notify the user of a selected item’s price change, supply, or release. 
 
-![image](https://github.com/Dx-Machina/362Project/assets/70718127/f4f51b61-0a63-4e31-b687-30ab97193437)
-![image](https://github.com/Dx-Machina/362Project/assets/70718127/ff87b3fa-40c3-4e06-8a43-bc295b429f91)
 
+
+
+To run the extension you must click on the puzzle peice on the top right of google chrome > manage extensions > turn on developer mode (on the top right) > click load unpacked > and click on the nstock folder > nstock will now appear in your chrome extensions
+For testing purpose the file increments in background.js comment the incrementation out to avoid it
+[Diagrams.pdf](https://github.com/Dx-Machina/362Project/files/13618636/Diagrams.pdf)
