@@ -47,7 +47,7 @@ function checkPriceUpdates() {
             const skuID = getSKUFromURL(save.link);
 
             if (skuID) {
-                const apiUrl = `https://api.bestbuy.com/v1/products/${skuID}.json?show=sku,name,orderable,salePrice&apiKey=UKLKI458vMr049KZq1DYNTCI`;
+                const apiUrl = `https://api.bestbuy.com/v1/products/${skuID}.json?show=sku,name,orderable,salePrice&apiKey=${APIKey}`;
             
                 fetch(apiUrl)
                     .then((data) => {
